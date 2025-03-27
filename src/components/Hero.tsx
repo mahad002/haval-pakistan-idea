@@ -16,7 +16,7 @@ interface HeroScreen {
 const screens: HeroScreen[] = [
   {
     id: 1,
-    background: "https://www.gwm.iq/sites/default/files/2023-10/Ora-EV-Trailer-24.mp4",
+    background: "https://www.gwmjordan.com/sites/default/files/2024-06/GWM-Tank-300-HEV-Intro.mp4",
     fallbackImage: "https://images.unsplash.com/photo-1675050757561-731d0f88e06c?q=80&w=3271&auto=format&fit=crop",
     type: "video", 
     logo: "https://www.gwm.iq/sites/default/files/2023-02/haval-logo%402x_0.png",
@@ -44,7 +44,7 @@ const screens: HeroScreen[] = [
   },
   {
     id: 3,
-    background: "https://www.gwmjordan.com/sites/default/files/2024-06/GWM-Tank-300-HEV-Intro.mp4",
+    background: "https://www.gwm.iq/sites/default/files/2023-10/Ora-EV-Trailer-24.mp4",
     type: "video",
     logo: "https://www.gwm.iq/themes/contrib/haveitall/logo.svg",
     title: "The Future is",
