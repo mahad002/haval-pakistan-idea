@@ -30,21 +30,8 @@ const screens: HeroScreen[] = [
   },
   {
     id: 2,
-    background: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg",
-    type: "image",
-    logo: "https://www.gwm.iq/sites/default/files/2023-02/ora-logo%402x_2.png",
-    title: "Redefining",
-    highlight: "Electric Mobility",
-    description: "Zero emissions, maximum performance, and unparalleled style",
-    stats: [
-      { label: "Power", value: "126 kW" },
-      { label: "Speed", value: "0-100 in 6.9s" }
-    ],
-    fallbackImage: undefined
-  },
-  {
-    id: 3,
-    background: "https://www.gwm.iq/sites/default/files/2023-10/Ora-EV-Trailer-24.mp4",
+    // background: "https://www.gwm.iq/sites/default/files/2023-10/Ora-EV-Trailer-24.mp4",
+    background: "https://www.gwm.iq/sites/default/files/2024-10/H9-2ndgen-video654.mp4",
     type: "video",
     logo: "https://www.gwm.iq/themes/contrib/haveitall/logo.svg",
     title: "The Future is",
@@ -54,7 +41,22 @@ const screens: HeroScreen[] = [
       { label: "Safety", value: "5-Star Rating" },
       { label: "Features", value: "Level 2+ ADAS" }
     ],
-    fallbackImage: undefined
+    fallbackImage: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg"
+  },
+  {
+    id: 3,
+    // background: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg",
+    background: "https://www.gwm.iq/sites/default/files/2023-10/Ora-EV-Trailer-24.mp4",
+    type: "video",
+    logo: "https://www.gwm.iq/sites/default/files/2023-02/ora-logo%402x_2.png",
+    title: "Redefining",
+    highlight: "Electric Mobility",
+    description: "Zero emissions, maximum performance, and unparalleled style",
+    stats: [
+      { label: "Power", value: "126 kW" },
+      { label: "Speed", value: "0-100 in 6.9s" }
+    ],
+    fallbackImage: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg"
   }
 ];
 
