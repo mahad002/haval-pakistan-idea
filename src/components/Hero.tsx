@@ -44,7 +44,7 @@ const screens: HeroScreen[] = [
   },
   {
     id: 3,
-    background: "https://www.gwm.iq/sites/default/files/2025-03/Jolion-Ramadan_gwm_2025.mp4",
+    background: "https://www.gwmjordan.com/sites/default/files/2024-06/GWM-Tank-300-HEV-Intro.mp4",
     type: "video",
     logo: "https://www.gwm.iq/themes/contrib/haveitall/logo.svg",
     title: "The Future is",
