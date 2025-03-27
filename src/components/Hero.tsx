@@ -161,9 +161,9 @@ const Hero = () => {
           </div>
           
           <div className="absolute bottom-8 md:bottom-8 left-4 right-4 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-white/60 text-sm z-20">
-            {/* <button onClick={scrollToModels} className="hover:text-white transition-colors">
-              Scroll to explore
-            </button> */}
+            <button onClick={scrollToModels} className="hover:text-white transition-colors">
+              
+            </button>
             <div className="flex items-center gap-6 md:gap-8">
               <button 
                 onClick={prevScreen}
