@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
-import { Car, ChevronLeft, ChevronRight, Battery, Zap, Shield } from 'lucide-react';
+import { Car, ChevronLeft, ChevronRight} from 'lucide-react';
 
 interface HeroScreen {
+  fallbackImage: string | undefined;
   id: number;
   background: string;
   type: 'video' | 'image';
@@ -38,7 +39,8 @@ const screens: HeroScreen[] = [
     stats: [
       { label: "Power", value: "126 kW" },
       { label: "Speed", value: "0-100 in 6.9s" }
-    ]
+    ],
+    fallbackImage: undefined
   },
   {
     id: 3,
@@ -51,7 +53,8 @@ const screens: HeroScreen[] = [
     stats: [
       { label: "Safety", value: "5-Star Rating" },
       { label: "Features", value: "Level 2+ ADAS" }
-    ]
+    ],
+    fallbackImage: undefined
   }
 ];
 
@@ -110,34 +113,38 @@ const Hero = () => {
           <img
             src={screens[currentScreen].logo}
             alt="Brand Logo"
-            className="w-48 mb-8 opacity-90"
+            className="w-32 md:w-48 mb-6 md:mb-8 opacity-90"
           />
           <div className="max-w-3xl">
             <div className="overflow-hidden">
-              <h1 className="text-7xl font-bold mb-6 text-white leading-tight transform transition-transform duration-500">
+              <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-4 md:mb-6 text-white leading-tight transform transition-transform duration-500">
                 {screens[currentScreen].title}{' '}
                 <span className="text-red-500">{screens[currentScreen].highlight}</span>
               </h1>
             </div>
-            <p className="text-2xl mb-4 text-gray-200 transform transition-all duration-500">
+            <p className="text-lg md:text-xl lg:text-2xl mb-3 md:mb-4 text-gray-200 transform transition-all duration-500">
               {screens[currentScreen].description}
             </p>
-            <p className="text-xl mb-8 text-red-400 font-semibold">
+            <p className="text-base md:text-lg lg:text-xl mb-6 md:mb-8 text-red-400 font-semibold">
               Now available in Pakistan
             </p>
-            <div className="flex gap-4 items-center">
-              <button 
-                onClick={scrollToModels}
-                className="bg-red-600 text-white px-8 py-4 rounded-md font-semibold hover:bg-red-700 transition-all duration-300 flex items-center gap-2 text-lg group"
-              >
-                <Car className="w-5 h-5" />
-                <span>Explore Now</span>
-                <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">→</span>
-              </button>
-              <button className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-md font-semibold hover:bg-white/20 transition-all duration-300 text-lg border border-white/30 hover:border-red-500">
-                Book a Test Drive
-              </button>
-              <div className="ml-8 flex items-center gap-6">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-lg sm:max-w-none relative z-10 mb-20 sm:mb-0">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
+                <button 
+                  onClick={scrollToModels}
+                  className="w-full sm:w-auto min-w-[180px] bg-red-600 text-white px-6 py-4 rounded-md font-semibold hover:bg-red-700 transition-all duration-300 flex items-center justify-center gap-2 text-base group"
+                >
+                  <Car className="w-5 h-5" />
+                  <span>Explore Now</span>
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">→</span>
+                </button>
+                <button 
+                  className="w-full sm:w-auto min-w-[180px] bg-white/10 backdrop-blur-sm text-white px-6 py-4 rounded-md font-semibold hover:bg-white/20 transition-all duration-300 text-base border border-white/30 hover:border-red-500 flex items-center justify-center"
+                >
+                  Book a Test Drive
+                </button>
+              </div>
+              <div className="hidden lg:flex ml-8 items-center gap-6">
                 {screens[currentScreen].stats.map((stat, index) => (
                   <React.Fragment key={stat.label}>
                     <div className="text-white/80 text-sm">
@@ -153,20 +160,20 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="absolute bottom-8 left-4 right-4 flex justify-between items-center text-white/60 text-sm">
-            <button onClick={scrollToModels} className="hover:text-white transition-colors">
+          <div className="absolute bottom-8 md:bottom-8 left-4 right-4 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-white/60 text-sm z-20">
+            {/* <button onClick={scrollToModels} className="hover:text-white transition-colors">
               Scroll to explore
-            </button>
-            <div className="flex items-center gap-8">
+            </button> */}
+            <div className="flex items-center gap-6 md:gap-8">
               <button 
                 onClick={prevScreen}
                 className="p-2 hover:text-white transition-colors rounded-full hover:bg-white/10"
               >
                 <ChevronLeft className="w-6 h-6" />
               </button>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2 md:gap-4">
                 <span>{String(currentScreen + 1).padStart(2, '0')}</span>
-                <div className="w-32 h-px bg-white/20">
+                <div className="w-24 md:w-32 h-px bg-white/20">
                   <div 
                     className="h-full bg-red-500 transition-all duration-500"
                     style={{ width: `${((currentScreen + 1) / screens.length) * 100}%` }}
