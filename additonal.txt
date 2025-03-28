@@ -1,0 +1,56 @@
+
+
+{
+  "desktopGallery": [
+    {
+      "id": 1,
+      "imageUrl": "https://storage.googleapis.com/havalimages/images/USPS/1.webp"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://storage.googleapis.com/havalimages/images/USPS/2.webp"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://storage.googleapis.com/havalimages/images/USPS/3.webp"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://storage.googleapis.com/havalimages/images/USPS/4.webp"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://storage.googleapis.com/havalimages/images/USPS/5.webp"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://storage.googleapis.com/havalimages/images/USPS/6.webp"
+    }
+  ],
+  "mobileGallery": [
+    {
+      "id": 1,
+      "imageUrl": "https://haval.pk/wp-content/themes/haval/assets/images/1.webp"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://haval.pk/wp-content/themes/haval/assets/images/2.webp"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://haval.pk/wp-content/themes/haval/assets/images/3.webp"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://haval.pk/wp-content/themes/haval/assets/images/4.webp"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://haval.pk/wp-content/themes/haval/assets/images/5.webp"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://haval.pk/wp-content/themes/haval/assets/images/6.webp"
+    }
+  ]
+}

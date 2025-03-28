@@ -19,7 +19,7 @@ const screens: HeroScreen[] = [
     background: "https://www.gwmjordan.com/sites/default/files/2024-06/GWM-Tank-300-HEV-Intro.mp4",
     fallbackImage: "https://images.unsplash.com/photo-1675050757561-731d0f88e06c?q=80&w=3271&auto=format&fit=crop",
     type: "video", 
-    logo: "https://www.gwm.iq/sites/default/files/2023-02/haval-logo%402x_0.png",
+    logo: "https://www.gwm.iq/themes/contrib/haveitall/logo.svg",
     title: "Experience",
     highlight: "Premium SUVs",
     description: "Discover our range of premium SUVs engineered for the modern adventurer",
@@ -30,21 +30,6 @@ const screens: HeroScreen[] = [
   },
   {
     id: 2,
-    // background: "https://www.gwm.iq/sites/default/files/2023-10/Ora-EV-Trailer-24.mp4",
-    background: "https://www.gwm.iq/sites/default/files/2024-10/H9-2ndgen-video654.mp4",
-    type: "video",
-    logo: "https://www.gwm.iq/themes/contrib/haveitall/logo.svg",
-    title: "The Future is",
-    highlight: "Innovation",
-    description: "Leading the way in automotive technology and sustainable mobility",
-    stats: [
-      { label: "Safety", value: "5-Star Rating" },
-      { label: "Features", value: "Level 2+ ADAS" }
-    ],
-    fallbackImage: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg"
-  },
-  {
-    id: 3,
     // background: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg",
     background: "https://www.gwm.iq/sites/default/files/2023-10/Ora-EV-Trailer-24.mp4",
     type: "video",
@@ -55,6 +40,21 @@ const screens: HeroScreen[] = [
     stats: [
       { label: "Power", value: "126 kW" },
       { label: "Speed", value: "0-100 in 6.9s" }
+    ],
+    fallbackImage: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg"
+  },
+  {
+    id: 3,
+    // background: "https://www.gwm.iq/sites/default/files/2023-10/Ora-EV-Trailer-24.mp4",
+    background: "https://www.gwm.iq/sites/default/files/2024-10/H9-2ndgen-video654.mp4",
+    type: "video",
+    logo: "https://www.gwm.iq/sites/default/files/2023-02/haval-logo%402x_0.png",
+    title: "The Future is",
+    highlight: "Innovation",
+    description: "Leading the way in automotive technology and sustainable mobility",
+    stats: [
+      { label: "Safety", value: "5-Star Rating" },
+      { label: "Features", value: "Level 2+ ADAS" }
     ],
     fallbackImage: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg"
   }
