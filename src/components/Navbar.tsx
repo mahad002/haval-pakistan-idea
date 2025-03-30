@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Globe, ChevronDown } from 'lucide-react';
+import { Globe } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
