@@ -1,0 +1,230 @@
+{
+    "models": [
+      {
+        "model": "Haval H6",
+        "url": "https://haval.pk/h6/",
+        "preview": {
+          "360_icon": "https://haval.pk/wp-content/uploads/2023/05/360-icon.png",
+          "color_variants": [
+            {
+              "color_name": "Black",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6/h6-360-thumb-black.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6/black/",
+              "alt": null
+            },
+            {
+              "color_name": "Gray",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6/h6-360-thumb-gray.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6/gray/",
+              "alt": null
+            },
+            {
+              "color_name": "Red",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6/h6-360-thumb-red.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6/red/",
+              "alt": null
+            },
+            {
+              "color_name": "White",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6/h6-360-thumb-white.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6/white/",
+              "alt": null
+            }
+          ]
+        }
+      },
+      {
+        "model": "Haval H6 HEV",
+        "url": "https://haval.pk/h6-hev/",
+        "preview": {
+          "360_icon": "https://haval.pk/wp-content/uploads/2023/05/360-icon.png",
+          "color_variants": [
+            {
+              "color_name": "Black",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6-hev/hev-thumb-01.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6-hev/black/",
+              "alt": null
+            },
+            {
+              "color_name": "Gray",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6-hev/hev-thumb-02.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6-hev/gray/",
+              "alt": null
+            },
+            {
+              "color_name": "Red",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6-hev/hev-thumb-03.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6-hev/red/",
+              "alt": null
+            },
+            {
+              "color_name": "White",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6-hev/hev-thumb-04.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/h6-hev/white/",
+              "alt": null
+            }
+          ]
+        }
+      },
+      {
+        "model": "Haval Jolion",
+        "url": "https://haval.pk/jolion/",
+        "preview": {
+          "360_icon": "https://haval.pk/wp-content/uploads/2023/05/360-icon.png",
+          "color_variants": [
+            {
+              "color_name": "Black",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/jolion_thumb_01.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/Black360/",
+              "alt": null
+            },
+            {
+              "color_name": "Red",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/jolion_thumb_03.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/Red360/",
+              "alt": null
+            },
+            {
+              "color_name": "White",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/jolion_thumb_04.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/White360/",
+              "alt": null
+            }
+          ]
+        }
+      },
+      {
+        "model": "Haval Jolion HEV",
+        "url": "https://haval.pk/hev-jolion/",
+        "preview": {
+          "360_icon": "https://haval.pk/wp-content/uploads/2023/05/360-icon.png",
+          "color_variants": [
+            {
+              "color_name": "Black",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/jolion_thumb_01.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/JolionHev/black/",
+              "alt": null
+            },
+            {
+              "color_name": "Gray",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/jolion_thumb_02.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/JolionHev/gray/",
+              "alt": null
+            },
+            {
+              "color_name": "Red",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/jolion_thumb_03.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/JolionHev/red/",
+              "alt": null
+            },
+            {
+              "color_name": "White",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/jolion/jolion_thumb_04.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/JolionHev/white/",
+              "alt": null
+            }
+          ]
+        }
+      },
+      {
+        "model": "ORA O3",
+        "url": "https://haval.pk/ora/",
+        "preview": {
+          "360_icon": "https://haval.pk/wp-content/uploads/2023/05/360-icon.png",
+          "color_variants": [
+            {
+              "color_name": "Black",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/black.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/Resizeblack/",
+              "alt": "Black"
+            },
+            {
+              "color_name": "Sun Black",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/sunblack.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/Resizesunblack/",
+              "alt": "SUN BLACK"
+            },
+            {
+              "color_name": "Hazel Wood Beige",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/beige.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/Resizebeige/",
+              "alt": "HAZEL WOOD BEIGE"
+            },
+            {
+              "color_name": null,
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/green.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/Resizegreen/",
+              "alt": null
+            },
+            {
+              "color_name": "Nebula Green",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/morandi.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/Resizemorandi/",
+              "alt": "NEBULA GREEN"
+            },
+            {
+              "color_name": "Mars Red",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/red.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/Resizered/",
+              "alt": "MARS RED"
+            },
+            {
+              "color_name": "Hamilton White",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/white.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ora/Allcolors/Resizewhite/",
+              "alt": "HAMILTON WHITE"
+            }
+          ]
+        }
+      },
+      {
+        "model": "ORA O7",
+        "url": "https://haval.pk/orao7/",
+        "preview": {
+          "360_icon": "https://haval.pk/wp-content/uploads/2023/05/360-icon.png",
+          "color_variants": [
+            {
+              "color_name": null,
+              "thumbnail_url": null,
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/ORAO7/ORA360/",
+              "alt": null
+            }
+          ]
+        }
+      },
+      {
+        "model": "Tank 500",
+        "url": "https://haval.pk/tank/",
+        "preview": {
+          "360_icon": "https://haval.pk/wp-content/uploads/2023/05/360-icon.png",
+          "color_variants": [
+            {
+              "color_name": "Black",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/tank/blacktank.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/tank/RESIZEBLACK/",
+              "alt": "Black"
+            },
+            {
+              "color_name": "Silver",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/tank/silvertank.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/tank/RESIZESILVER/",
+              "alt": "Black"
+            },
+            {
+              "color_name": "Golden",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/tank/goldentank.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/tank/RESIZEGOLDEN/",
+              "alt": "Black"
+            },
+            {
+              "color_name": "White",
+              "thumbnail_url": "https://haval.pk/wp-content/themes/haval/assets/images/cars/tank/whitetank.png",
+              "data_path": "https://haval.pk/wp-content/themes/haval/assets/images/cars/tank/RESIZEWHITE/",
+              "alt": "Black"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

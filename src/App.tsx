@@ -1,26 +1,75 @@
 import React from 'react';
-import SUVModelsShowcase from './components/SUVModelsShowcase';
-import Hero from './components/Hero';
-import CTASection from './components/CTASection';
-import Navbar from './components/Navbar';
-import { Car } from 'lucide-react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/layout/Layout';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
+import { routes } from './constants/routes';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Navbar />
-      <Hero />
-
-      {/* Models Showcase */}
-      <div className="w-full">
-        <div className="max-w-7xl mx-auto px-4 py-16">
-          <h2 className="text-4xl font-bold text-gray-800 text-center mb-4">Our Premium SUV Collection</h2>
-          <p className="text-xl text-gray-600 text-center mb-12">Discover the perfect blend of luxury and performance</p>
-        </div>
-        <SUVModelsShowcase />
-      </div>
-      <CTASection />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          
+          {/* Vehicle Routes */}
+          {routes.vehicles.map((brand) => 
+            brand.models.map((model) => (
+              <Route
+                key={model.path}
+                path={model.path}
+                element={
+                  <React.Suspense fallback={
+                    <div className="min-h-screen flex items-center justify-center">
+                      <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-red-600"></div>
+                    </div>
+                  }>
+                    <model.component />
+                  </React.Suspense>
+                }
+              />
+            ))
+          )}
+          
+          {/* Service Routes */}
+          {routes.services.map((service) => (
+            <Route
+              key={service.path}
+              path={service.path}
+              element={
+                <React.Suspense fallback={
+                  <div className="min-h-screen flex items-center justify-center">
+                    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-red-600"></div>
+                  </div>
+                }>
+                  <service.component />
+                </React.Suspense>
+              }
+            />
+          ))}
+          
+          {/* Information Routes */}
+          {routes.info.map((info) => (
+            <Route
+              key={info.path}
+              path={info.path}
+              element={
+                <React.Suspense fallback={
+                  <div className="min-h-screen flex items-center justify-center">
+                    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-red-600"></div>
+                  </div>
+                }>
+                  <info.component />
+                </React.Suspense>
+              }
+            />
+          ))}
+          
+          {/* Catch-all Route */}
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 

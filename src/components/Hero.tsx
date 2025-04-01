@@ -17,7 +17,7 @@ const screens: HeroScreen[] = [
   {
     id: 1,
     background: "https://www.gwmjordan.com/sites/default/files/2024-06/GWM-Tank-300-HEV-Intro.mp4",
-    fallbackImage: "https://images.unsplash.com/photo-1675050757561-731d0f88e06c?q=80&w=3271&auto=format&fit=crop",
+    fallbackImage: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg",
     type: "video", 
     logo: "https://www.gwm.iq/themes/contrib/haveitall/logo.svg",
     title: "Experience",
@@ -59,7 +59,6 @@ const screens: HeroScreen[] = [
     fallbackImage: "https://www.gwm.iq/sites/default/files/styles/full_desktop/public/2024-09/GWM-Haval-Jolion-Pro-Present.webp?itok=R_S2lAjg"
   }
 ];
-
 const Hero = () => {
   const [currentScreen, setCurrentScreen] = useState(0);
   const modelsRef = useRef<HTMLDivElement>(null);
