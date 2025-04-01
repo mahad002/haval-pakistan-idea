@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import SUVModelsShowcase from '../components/SUVModelsShowcase';
-import FeaturedModels from '../components/FeaturedModels';
+// import FeaturedModels from '../components/FeaturedModels';
 import CTASection from '../components/CTASection';
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <SUVModelsShowcase />
       </div>
-      <FeaturedModels />
+      {/* <FeaturedModels /> */}
       <CTASection />
     </div>
   );
